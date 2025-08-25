@@ -1,0 +1,16 @@
+# Main Python Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Question Generation
+transformers
+torch
+sentence-transformers
+PyMuPDF
+pytesseract
+pdf2image
+# You may need to install Poppler separately for pdf2image to work
+
+# Summarizer
+python-pptx

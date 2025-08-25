@@ -106,8 +106,7 @@ npm install
 
 ```bash
 cd python-api
-python -m venv venv
-venv\Scripts\activate     # On Windows
+uvicorn main:app --reload       # On Windows
 pip install -r requirements.txt
 ```
 
